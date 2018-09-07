@@ -1,4 +1,4 @@
-FROM httpd
+FROM nginx
 MAINTAINER wintoo143@gmail.com
-COPY . /var/www/html/
+COPY index.html /usr/share/nginx/html/
 EXPOSE 80
